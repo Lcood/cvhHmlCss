@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>curriculum vitae</title>
+    <!--fontAWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--header-->
+    <header class="heading">
+        <!--Navbar-->
+        <nav class="navbar">
+            <ul class="navbar__links">
+                <li class="navbar__item"><a href="#experiences">Expériences</a></li>
+                <li class="navbar__item"><a href="#competences">Compétences</a></li>
+                <li class="navbar__item"><a href="#formations">Formations</a></li>
+                
+            </ul>
+            <button class="navbar__button"><a href="#contact">Contact</a></button>
+        </nav>
+        <!--END Navbar-->
+    </header>
+    <!--END header-->
+
+    <!--main-->
+    <main class="container">
+        <section class="hero">
+            <article class="hero__profil">
+                <h1 class="hero__title">Fatoumata DIALLO</h1>
+                <p class="Ò">Developpeuse Web <strong><em>en formation</em></strong></p>
+            </article>
+            <article class="hero__contact">
+                <ul class="hero__items">
+                    <li><i class="fa-solid fa-envelope"></i> email@gmail.com</li>
+                    <li><i class="fa-solid fa-phone"></i> 06 12  00 00  00</li>
+                    <li><i class="fa-solid fa-window-maximize"></i> www.fbd.com</li>
+                </ul>
+            </article>
+            <hr>
+        </section>
+        <!--End hero-->
+        <section class="profil"> 
+            <article class="profil__image">
+                <img src="./assets/images/hero_title.jpg" alt="image de profil" >
+            </article>
+            <article class="profil__desc">
+                <h2 class=" title profil__title">Profil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ullam quisquam quam? Nobis, error. Odit aliquid, optio mollitia placeat incidunt magni, labore ipsa quos tempora nobis, voluptatibus id? Totam, dolor.
+                Nostrum aperiam porro ullam voluptates, magni adipisci eius illo facilis. Delectus voluptate dolore sapiente consequatur quibusdam excepturi, iusto asperiores officiis adipisci. A totam eius fugit perferendis mollitia perspiciatis et dolorum.</p>
+            </article>
+        </section>
+        <!--END profil-->
+
+        <section class="expForm">
+            <article class="formations__list">
+                <h2 class="title">Formations</h2>
+            
+                <section class="formation">
+                    <h3>Développeur Web full stack</h3>
+                    <p>2023 - 2029 : En formation</p>
+                    <p>Studi</p>
+                </section>
+                <section class="formation">
+                    <h3>Master Droit des affaires</h3>
+                    <p>2012 - 2013</p>
+                    <p>Université Lumière Lyon 2</p>
+                </section>
+                <sectionclass="formation">
+                    <h3>Licence Droit</h3>
+
+                    <p>2008 - 2011</p>
+                    <p>Université Lumière Lyon 2</p>
+                </sectionclass=>
+
+            </article>
+            <article class="experiences__list">
+                <h2>Expériences</h2>
+                <article class="experience">
+                    <h3>CEPJ</h3>
+                    <li>Référente pédagogique et réglementaire des  accueils collectifs de mineurs </li>
+                    <li>Référente départementale continuité éducative</li>
+                </article>
+                <article class="experience">
+                    <h3>DSJ-Ministère de la Justice</h3>
+                    <li>Adjointe au chef de pôle</li>
+                </article>
+                <article class="experience">
+                    <h3>Préfecture de police de Paris</h3>
+                    <li>Cheffe de pôle - contentieux </li>
+                </article>
+                <article class="experience">
+                    <h3>DSJ-Ministère de la Justice</h3>
+                    <li>Greffière des Services Judiciaires</li>
+                </article>
+                
+
+            </article>
+
+        </section>
+        <article class="compétences">
+            <h2 id="competences">Compétences</h2>
+            <ul class="comptences__list">
+                <li><i class="fa-brands fa-html5"></i>HTML5</li>
+                <li><i class="fa-brands fa-css3"></i>CSS3</li>
+                <li><i class="fa-brands fa-js"></i>JavaScript</li>
+                <li><i class="fa-brands fa-php"></i>PHP</li>
+                <li><i class="fa-brands fa-wordpress"></i>WordPress</li>
+                <li><i class="fa-solid fa-database"></i> MySQL</li>
+                <li><i class="fa-solid fa-code"></i> Git</li>
+            </ul>
+        </article>
+        
+
+        
+
+
+    </main>
+    <!--END main-->
+    <!--footer-->
+    <footer>
+        <div class="footer">
+            <article>
+                <p>&copy;2024</p>
+            </article>
+            
+            <sarticle class="footer__reseaux">
+                <a href="#"><i class="fa-solid fa-blog"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-square-github"></i></a>
+                <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+
+            </sarticle> 
+            <article class="formControl">
+                <h2 id="contact">Contactez-moi</h2>
+                <form class="form" method="post">
+                    <textarea name="contact-form" id="" cols="30" rows="2"></textarea>
+                    <!-- <input  type="text" class="form-input" name="contact" placeholder="Message"> -->
+                    <!-- Bouton de soumission du formulaire -->  
+                    <input type="submit" value="Envoyer">  
+                </form>
+        </div>
+        </article>
+
+        
+        
+    </footer>
+    <!--END footer-->
+    
+    
+</body>
+</html>
+
